@@ -87,17 +87,19 @@ CREATE TABLE card_subtypes (
 CREATE TABLE tcgplayer_weekly_sales(
 	listing_id INT AUTO_INCREMENT PRIMARY KEY,
     card_id VARCHAR(20),
-    week_of DATE,
-    quantity_sold INT,
-    low_sale_price  DECIMAL(10, 2),
-    high_sale_price DECIMAL(10, 2),	
-    market_price DECIMAL(10, 2),
-    UNIQUE(card_id, week_of),
+    week DATE,
+    num_sold INT,
+    min_price  DECIMAL(10, 2),
+    max_price DECIMAL(10, 2),	
+    week_avg DECIMAL(10, 2),
+    UNIQUE(card_id, week),
     FOREIGN KEY (card_id) REFERENCES cards(card_id)
 );
 
 DROP TABLE tcgplayer_weekly_sales;
 SELECT * FROM tcgplayer_weekly_sales;
+
+
 # USEFUL QUERIES
 
 SELECT set_id FROM sets WHERE release_date >= '2023-03-23';
