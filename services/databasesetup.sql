@@ -33,6 +33,13 @@ CREATE TABLE cards (
 
 SELECT * FROM cards;
 
+SELECT c.card_id 
+            FROM cards c
+            WHERE set_id = 'sv1' AND
+               c.rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
+                               'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
+                               'Illustration Rare', 'Trainer Gallery Rare Holo');
+
 
 # Could be irrelevant now, however will keep in case of future use.
 CREATE TABLE tcgplayer_prices (
@@ -77,8 +84,23 @@ CREATE TABLE card_subtypes (
     FOREIGN KEY (card_id) REFERENCES cards(card_id)
 );
 
+CREATE TABLE tcgplayer_weekly_sales(
+	listing_id INT AUTO_INCREMENT PRIMARY KEY,
+    card_id VARCHAR(20),
+    week_of DATE,
+    quantity_sold INT,
+    low_sale_price  DECIMAL(10, 2),
+    high_sale_price DECIMAL(10, 2),	
+    market_price DECIMAL(10, 2),
+    UNIQUE(card_id, week_of),
+    FOREIGN KEY (card_id) REFERENCES cards(card_id)
+);
 
+DROP TABLE tcgplayer_weekly_sales;
+SELECT * FROM tcgplayer_weekly_sales;
 # USEFUL QUERIES
+
+SELECT set_id FROM sets WHERE release_date >= '2023-03-23';
 
 # Query to view all card's subtypes.
 SELECT c.name, s.subtype, c.card_id FROM cards AS c JOIN card_subtypes AS s ON c.card_id = s.card_id;
@@ -87,8 +109,8 @@ SELECT c.name, s.subtype, c.card_id FROM cards AS c JOIN card_subtypes AS s ON c
 SELECT c.card_id 
             FROM cards c
             JOIN sets s ON c.set_id = s.set_id 
-            WHERE s.release_date >= '2020-02-06' AND s.release_date <= '2023-01-19'
-              AND c.rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
+            WHERE s.release_date >= '2023-03-20' AND
+               c.rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
                                'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
                                'Illustration Rare', 'Trainer Gallery Rare Holo');
                                
@@ -123,3 +145,5 @@ GROUP BY
     e.card_id, t.market_price
 ORDER BY 
     mean_price DESC;
+    
+SELECT * FROM cards;

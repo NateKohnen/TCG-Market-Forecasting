@@ -1,0 +1,1250 @@
+[
+  {
+    "card_id": "sv7-143",
+    "week": "2024-06-24",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-07-01",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-07-08",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-07-15",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-07-22",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-07-29",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-08-05",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-08-12",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-08-19",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-08-26",
+    "num_sold": 5,
+    "min_price": "43.99",
+    "max_price": "49.97",
+    "week_avg": "50.32"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-09-02",
+    "num_sold": 20,
+    "min_price": "37.98",
+    "max_price": "46.99",
+    "week_avg": "43.15"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-09-09",
+    "num_sold": 369,
+    "min_price": "24.99",
+    "max_price": "40.00",
+    "week_avg": "31.26"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-09-16",
+    "num_sold": 263,
+    "min_price": "25.00",
+    "max_price": "38.80",
+    "week_avg": "31.56"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-09-23",
+    "num_sold": 259,
+    "min_price": "28.70",
+    "max_price": "44.99",
+    "week_avg": "30.85"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-09-30",
+    "num_sold": 189,
+    "min_price": "28.00",
+    "max_price": "41.99",
+    "week_avg": "32.11"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-10-07",
+    "num_sold": 213,
+    "min_price": "25.50",
+    "max_price": "40.00",
+    "week_avg": "32.48"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-10-14",
+    "num_sold": 139,
+    "min_price": "25.49",
+    "max_price": "42.35",
+    "week_avg": "33.76"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-10-21",
+    "num_sold": 142,
+    "min_price": "28.34",
+    "max_price": "55.99",
+    "week_avg": "37.81"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-10-28",
+    "num_sold": 148,
+    "min_price": "27.50",
+    "max_price": "46.99",
+    "week_avg": "37.44"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-11-04",
+    "num_sold": 118,
+    "min_price": "34.96",
+    "max_price": "52.68",
+    "week_avg": "42.30"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-11-11",
+    "num_sold": 106,
+    "min_price": "35.00",
+    "max_price": "56.68",
+    "week_avg": "45.19"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-11-18",
+    "num_sold": 120,
+    "min_price": "36.00",
+    "max_price": "57.07",
+    "week_avg": "42.30"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-11-25",
+    "num_sold": 215,
+    "min_price": "30.87",
+    "max_price": "49.95",
+    "week_avg": "44.28"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-12-02",
+    "num_sold": 117,
+    "min_price": "39.81",
+    "max_price": "58.20",
+    "week_avg": "47.29"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-12-09",
+    "num_sold": 99,
+    "min_price": "38.84",
+    "max_price": "51.95",
+    "week_avg": "45.06"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-12-16",
+    "num_sold": 80,
+    "min_price": "32.00",
+    "max_price": "51.95",
+    "week_avg": "45.24"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-12-23",
+    "num_sold": 112,
+    "min_price": "38.00",
+    "max_price": "54.99",
+    "week_avg": "46.78"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2024-12-30",
+    "num_sold": 110,
+    "min_price": "39.22",
+    "max_price": "69.99",
+    "week_avg": "49.12"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-01-06",
+    "num_sold": 142,
+    "min_price": "39.01",
+    "max_price": "69.26",
+    "week_avg": "49.00"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-01-13",
+    "num_sold": 116,
+    "min_price": "41.20",
+    "max_price": "68.95",
+    "week_avg": "51.75"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-01-20",
+    "num_sold": 151,
+    "min_price": "39.22",
+    "max_price": "85.65",
+    "week_avg": "67.85"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-01-27",
+    "num_sold": 82,
+    "min_price": "50.00",
+    "max_price": "99.69",
+    "week_avg": "67.96"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-02-03",
+    "num_sold": 59,
+    "min_price": "48.50",
+    "max_price": "85.98",
+    "week_avg": "65.33"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-02-10",
+    "num_sold": 69,
+    "min_price": "52.00",
+    "max_price": "72.00",
+    "week_avg": "59.37"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-02-17",
+    "num_sold": 85,
+    "min_price": "50.00",
+    "max_price": "77.04",
+    "week_avg": "62.81"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-02-24",
+    "num_sold": 74,
+    "min_price": "52.00",
+    "max_price": "79.99",
+    "week_avg": "62.96"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-03-03",
+    "num_sold": 67,
+    "min_price": "53.00",
+    "max_price": "69.99",
+    "week_avg": "62.19"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-03-10",
+    "num_sold": 73,
+    "min_price": "48.00",
+    "max_price": "71.99",
+    "week_avg": "61.52"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-03-17",
+    "num_sold": 47,
+    "min_price": "49.36",
+    "max_price": "84.99",
+    "week_avg": "62.02"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-03-24",
+    "num_sold": 76,
+    "min_price": "45.00",
+    "max_price": "79.99",
+    "week_avg": "56.39"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-03-31",
+    "num_sold": 51,
+    "min_price": "49.99",
+    "max_price": "74.90",
+    "week_avg": "58.09"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-04-07",
+    "num_sold": 50,
+    "min_price": "45.00",
+    "max_price": "64.93",
+    "week_avg": "53.27"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-04-14",
+    "num_sold": 39,
+    "min_price": "44.98",
+    "max_price": "64.99",
+    "week_avg": "52.58"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-04-21",
+    "num_sold": 36,
+    "min_price": "44.00",
+    "max_price": "52.58",
+    "week_avg": "48.23"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-04-28",
+    "num_sold": 48,
+    "min_price": "40.00",
+    "max_price": "57.77",
+    "week_avg": "47.77"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-05-05",
+    "num_sold": 50,
+    "min_price": "44.00",
+    "max_price": "64.99",
+    "week_avg": "47.95"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-05-12",
+    "num_sold": 93,
+    "min_price": "39.01",
+    "max_price": "59.99",
+    "week_avg": "48.44"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-05-19",
+    "num_sold": 56,
+    "min_price": "42.00",
+    "max_price": "64.99",
+    "week_avg": "48.68"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-05-26",
+    "num_sold": 58,
+    "min_price": "41.00",
+    "max_price": "64.99",
+    "week_avg": "47.18"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-06-02",
+    "num_sold": 34,
+    "min_price": "39.00",
+    "max_price": "57.99",
+    "week_avg": "45.73"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-06-09",
+    "num_sold": 65,
+    "min_price": "38.20",
+    "max_price": "59.98",
+    "week_avg": "47.30"
+  },
+  {
+    "card_id": "sv7-143",
+    "week": "2025-06-16",
+    "num_sold": 4,
+    "min_price": "45.59",
+    "max_price": "47.99",
+    "week_avg": "47.33"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-06-24",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-07-01",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-07-08",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-07-15",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-07-22",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-07-29",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-08-05",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-08-12",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-08-19",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-08-26",
+    "num_sold": 6,
+    "min_price": "44.98",
+    "max_price": "49.97",
+    "week_avg": "48.98"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-09-02",
+    "num_sold": 21,
+    "min_price": "39.00",
+    "max_price": "55.49",
+    "week_avg": "48.46"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-09-09",
+    "num_sold": 332,
+    "min_price": "35.99",
+    "max_price": "50.00",
+    "week_avg": "41.22"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-09-16",
+    "num_sold": 250,
+    "min_price": "30.00",
+    "max_price": "48.00",
+    "week_avg": "39.70"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-09-23",
+    "num_sold": 243,
+    "min_price": "30.00",
+    "max_price": "49.99",
+    "week_avg": "41.69"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-09-30",
+    "num_sold": 182,
+    "min_price": "25.00",
+    "max_price": "44.99",
+    "week_avg": "38.82"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-10-07",
+    "num_sold": 232,
+    "min_price": "35.21",
+    "max_price": "49.97",
+    "week_avg": "40.65"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-10-14",
+    "num_sold": 164,
+    "min_price": "33.00",
+    "max_price": "49.99",
+    "week_avg": "39.76"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-10-21",
+    "num_sold": 189,
+    "min_price": "30.00",
+    "max_price": "89.99",
+    "week_avg": "41.59"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-10-28",
+    "num_sold": 170,
+    "min_price": "32.00",
+    "max_price": "71.99",
+    "week_avg": "40.08"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-11-04",
+    "num_sold": 116,
+    "min_price": "34.41",
+    "max_price": "54.99",
+    "week_avg": "44.91"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-11-11",
+    "num_sold": 143,
+    "min_price": "34.00",
+    "max_price": "73.12",
+    "week_avg": "51.93"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-11-18",
+    "num_sold": 125,
+    "min_price": "34.00",
+    "max_price": "84.08",
+    "week_avg": "42.89"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-11-25",
+    "num_sold": 235,
+    "min_price": "31.88",
+    "max_price": "66.49",
+    "week_avg": "52.43"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-12-02",
+    "num_sold": 95,
+    "min_price": "48.88",
+    "max_price": "64.95",
+    "week_avg": "55.58"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-12-09",
+    "num_sold": 103,
+    "min_price": "40.45",
+    "max_price": "90.22",
+    "week_avg": "54.13"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-12-16",
+    "num_sold": 74,
+    "min_price": "40.00",
+    "max_price": "67.35",
+    "week_avg": "49.19"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-12-23",
+    "num_sold": 86,
+    "min_price": "46.00",
+    "max_price": "67.35",
+    "week_avg": "52.57"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2024-12-30",
+    "num_sold": 125,
+    "min_price": "43.05",
+    "max_price": "67.32",
+    "week_avg": "57.03"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-01-06",
+    "num_sold": 134,
+    "min_price": "48.35",
+    "max_price": "68.79",
+    "week_avg": "56.29"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-01-13",
+    "num_sold": 135,
+    "min_price": "40.01",
+    "max_price": "100.00",
+    "week_avg": "56.35"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-01-20",
+    "num_sold": 170,
+    "min_price": "47.99",
+    "max_price": "95.99",
+    "week_avg": "77.96"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-01-27",
+    "num_sold": 87,
+    "min_price": "61.80",
+    "max_price": "93.99",
+    "week_avg": "81.04"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-02-03",
+    "num_sold": 46,
+    "min_price": "72.00",
+    "max_price": "89.93",
+    "week_avg": "80.67"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-02-10",
+    "num_sold": 84,
+    "min_price": "45.02",
+    "max_price": "88.38",
+    "week_avg": "70.68"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-02-17",
+    "num_sold": 84,
+    "min_price": "63.95",
+    "max_price": "79.99",
+    "week_avg": "70.19"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-02-24",
+    "num_sold": 67,
+    "min_price": "60.00",
+    "max_price": "113.75",
+    "week_avg": "73.63"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-03-03",
+    "num_sold": 71,
+    "min_price": "58.00",
+    "max_price": "79.97",
+    "week_avg": "66.39"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-03-10",
+    "num_sold": 51,
+    "min_price": "59.78",
+    "max_price": "79.74",
+    "week_avg": "64.65"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-03-17",
+    "num_sold": 60,
+    "min_price": "47.26",
+    "max_price": "88.83",
+    "week_avg": "67.33"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-03-24",
+    "num_sold": 62,
+    "min_price": "54.95",
+    "max_price": "79.48",
+    "week_avg": "63.01"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-03-31",
+    "num_sold": 52,
+    "min_price": "50.00",
+    "max_price": "70.00",
+    "week_avg": "62.08"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-04-07",
+    "num_sold": 42,
+    "min_price": "50.00",
+    "max_price": "69.95",
+    "week_avg": "60.62"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-04-14",
+    "num_sold": 68,
+    "min_price": "55.00",
+    "max_price": "105.45",
+    "week_avg": "66.85"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-04-21",
+    "num_sold": 45,
+    "min_price": "51.27",
+    "max_price": "80.89",
+    "week_avg": "61.78"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-04-28",
+    "num_sold": 46,
+    "min_price": "50.00",
+    "max_price": "70.49",
+    "week_avg": "60.73"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-05-05",
+    "num_sold": 34,
+    "min_price": "49.99",
+    "max_price": "70.00",
+    "week_avg": "61.25"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-05-12",
+    "num_sold": 89,
+    "min_price": "50.00",
+    "max_price": "71.23",
+    "week_avg": "60.55"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-05-19",
+    "num_sold": 37,
+    "min_price": "54.00",
+    "max_price": "71.24",
+    "week_avg": "60.01"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-05-26",
+    "num_sold": 32,
+    "min_price": "52.99",
+    "max_price": "71.24",
+    "week_avg": "60.34"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-06-02",
+    "num_sold": 29,
+    "min_price": "50.00",
+    "max_price": "68.79",
+    "week_avg": "54.90"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-06-09",
+    "num_sold": 48,
+    "min_price": "32.99",
+    "max_price": "64.99",
+    "week_avg": "50.56"
+  },
+  {
+    "card_id": "sv7-148",
+    "week": "2025-06-16",
+    "num_sold": 7,
+    "min_price": "48.40",
+    "max_price": "50.87",
+    "week_avg": "51.13"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-06-24",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-07-01",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-07-08",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-07-15",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-07-22",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-07-29",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-08-05",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-08-12",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-08-19",
+    "num_sold": 0,
+    "min_price": "0.00",
+    "max_price": "0.00",
+    "week_avg": "0.00"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-08-26",
+    "num_sold": 1,
+    "min_price": "149.99",
+    "max_price": "149.99",
+    "week_avg": "149.99"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-09-02",
+    "num_sold": 19,
+    "min_price": "130.00",
+    "max_price": "172.76",
+    "week_avg": "151.05"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-09-09",
+    "num_sold": 122,
+    "min_price": "105.00",
+    "max_price": "146.21",
+    "week_avg": "123.65"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-09-16",
+    "num_sold": 110,
+    "min_price": "90.00",
+    "max_price": "139.99",
+    "week_avg": "109.67"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-09-23",
+    "num_sold": 105,
+    "min_price": "105.00",
+    "max_price": "139.99",
+    "week_avg": "116.37"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-09-30",
+    "num_sold": 68,
+    "min_price": "101.00",
+    "max_price": "138.00",
+    "week_avg": "113.35"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-10-07",
+    "num_sold": 76,
+    "min_price": "99.98",
+    "max_price": "139.99",
+    "week_avg": "104.75"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-10-14",
+    "num_sold": 63,
+    "min_price": "96.25",
+    "max_price": "139.99",
+    "week_avg": "104.38"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-10-21",
+    "num_sold": 71,
+    "min_price": "91.99",
+    "max_price": "112.12",
+    "week_avg": "96.64"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-10-28",
+    "num_sold": 62,
+    "min_price": "85.00",
+    "max_price": "104.99",
+    "week_avg": "93.55"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-11-04",
+    "num_sold": 48,
+    "min_price": "84.99",
+    "max_price": "109.99",
+    "week_avg": "93.12"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-11-11",
+    "num_sold": 36,
+    "min_price": "79.80",
+    "max_price": "129.98",
+    "week_avg": "92.90"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-11-18",
+    "num_sold": 61,
+    "min_price": "69.99",
+    "max_price": "108.42",
+    "week_avg": "81.25"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-11-25",
+    "num_sold": 159,
+    "min_price": "65.00",
+    "max_price": "92.58",
+    "week_avg": "76.51"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-12-02",
+    "num_sold": 103,
+    "min_price": "69.99",
+    "max_price": "104.89",
+    "week_avg": "79.34"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-12-09",
+    "num_sold": 58,
+    "min_price": "65.99",
+    "max_price": "104.73",
+    "week_avg": "75.99"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-12-16",
+    "num_sold": 35,
+    "min_price": "65.00",
+    "max_price": "119.99",
+    "week_avg": "73.61"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-12-23",
+    "num_sold": 56,
+    "min_price": "65.01",
+    "max_price": "99.99",
+    "week_avg": "75.04"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2024-12-30",
+    "num_sold": 93,
+    "min_price": "65.00",
+    "max_price": "140.98",
+    "week_avg": "79.44"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-01-06",
+    "num_sold": 89,
+    "min_price": "71.27",
+    "max_price": "99.99",
+    "week_avg": "84.14"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-01-13",
+    "num_sold": 68,
+    "min_price": "72.50",
+    "max_price": "94.15",
+    "week_avg": "85.43"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-01-20",
+    "num_sold": 51,
+    "min_price": "73.47",
+    "max_price": "99.99",
+    "week_avg": "85.05"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-01-27",
+    "num_sold": 45,
+    "min_price": "79.00",
+    "max_price": "98.48",
+    "week_avg": "85.48"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-02-03",
+    "num_sold": 36,
+    "min_price": "76.01",
+    "max_price": "91.99",
+    "week_avg": "84.85"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-02-10",
+    "num_sold": 27,
+    "min_price": "69.00",
+    "max_price": "99.99",
+    "week_avg": "81.14"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-02-17",
+    "num_sold": 46,
+    "min_price": "65.99",
+    "max_price": "93.20",
+    "week_avg": "78.47"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-02-24",
+    "num_sold": 31,
+    "min_price": "66.81",
+    "max_price": "89.00",
+    "week_avg": "77.89"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-03-03",
+    "num_sold": 21,
+    "min_price": "68.50",
+    "max_price": "89.99",
+    "week_avg": "76.31"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-03-10",
+    "num_sold": 38,
+    "min_price": "65.00",
+    "max_price": "84.96",
+    "week_avg": "74.45"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-03-17",
+    "num_sold": 21,
+    "min_price": "60.00",
+    "max_price": "79.98",
+    "week_avg": "70.34"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-03-24",
+    "num_sold": 45,
+    "min_price": "50.00",
+    "max_price": "77.00",
+    "week_avg": "57.25"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-03-31",
+    "num_sold": 55,
+    "min_price": "53.00",
+    "max_price": "69.89",
+    "week_avg": "57.95"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-04-07",
+    "num_sold": 57,
+    "min_price": "50.00",
+    "max_price": "69.99",
+    "week_avg": "59.68"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-04-14",
+    "num_sold": 58,
+    "min_price": "53.66",
+    "max_price": "69.99",
+    "week_avg": "55.63"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-04-21",
+    "num_sold": 27,
+    "min_price": "47.32",
+    "max_price": "59.99",
+    "week_avg": "53.32"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-04-28",
+    "num_sold": 49,
+    "min_price": "44.77",
+    "max_price": "54.30",
+    "week_avg": "49.09"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-05-05",
+    "num_sold": 36,
+    "min_price": "44.32",
+    "max_price": "55.49",
+    "week_avg": "50.18"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-05-12",
+    "num_sold": 62,
+    "min_price": "42.00",
+    "max_price": "59.99",
+    "week_avg": "48.08"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-05-19",
+    "num_sold": 32,
+    "min_price": "39.45",
+    "max_price": "57.00",
+    "week_avg": "46.13"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-05-26",
+    "num_sold": 26,
+    "min_price": "43.00",
+    "max_price": "49.74",
+    "week_avg": "45.90"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-06-02",
+    "num_sold": 29,
+    "min_price": "42.50",
+    "max_price": "46.49",
+    "week_avg": "44.28"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-06-09",
+    "num_sold": 36,
+    "min_price": "41.09",
+    "max_price": "47.00",
+    "week_avg": "44.33"
+  },
+  {
+    "card_id": "sv7-170",
+    "week": "2025-06-16",
+    "num_sold": 2,
+    "min_price": "44.21",
+    "max_price": "44.21",
+    "week_avg": "44.33"
+  }
+]
