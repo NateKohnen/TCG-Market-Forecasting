@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
+import matplotlib.pyplot as plt
 
 
 """
@@ -11,15 +12,15 @@ DEVELOPER CONSTANTS
 # Super useful for everyone else
 JSON_FILE_PATH = ("C:\\Users\\Nate\\PycharmProjects"
                   "\\MarketPredictor\\tests\\weekly-info"
-                  "\\scarlet_violet_era_weekly_sales.json")
+                  "\\SV_Weekly_Historical_Data_Above_20.json")
 
 # JSON attribute references
-PARAM_CID = "card_id"  # Card identifier
-PARAM_WEEK = "week"  # Specific 7-day period (YYYY-MM-DD)
-PARAM_VOL = "num_sold"  # Number of card sales made
-PARAM_PMIN = "min_price"  # Minimum sell price instance
-PARAM_PMAX = "max_price"  # Maximum sell price instance
-PARAM_AVG = "week_avg"  # Average sell price over all instances
+JPARAM_CID = "card_id"  # Card identifier
+JPARAM_WEEK = "week"  # Specific 7-day period (YYYY-MM-DD)
+JPARAM_VOL = "num_sold"  # Number of card sales made
+JPARAM_PMIN = "min_price"  # Minimum sell price instance
+JPARAM_PMAX = "max_price"  # Maximum sell price instance
+JPARAM_AVG = "week_avg"  # Average sell price over all instances
 
 # Model-facing predictive attribute references
 PARAM_NEXT = "next_avg"  # Next week's average sell price
@@ -43,28 +44,30 @@ DEVELOPER CONSTANTS
 df = pd.read_json(JSON_FILE_PATH)
 
 # Item sorting failsafe, quantize card IDs, and convert datetime
-df = df.sort_values([PARAM_CID, PARAM_WEEK])
-codes, uniques = pd.factorize(df[PARAM_CID])
-df[PARAM_CID] = [c for c in codes]
-df[PARAM_WEEK] = pd.to_datetime(df[PARAM_WEEK])
+df = df.sort_values([JPARAM_CID, JPARAM_WEEK])
+codes, uniques = pd.factorize(df[JPARAM_CID])
+df[JPARAM_CID] = [c for c in codes]
+df[JPARAM_WEEK] = pd.to_datetime(df[JPARAM_WEEK])
 
 # Target (directionality)
-df[PARAM_NEXT] = df.groupby(PARAM_CID)[PARAM_AVG].shift(-1)
-df[PARAM_TARG] = (df[PARAM_NEXT] > df[PARAM_AVG]).astype(int)
+df[PARAM_NEXT] = df.groupby(JPARAM_CID)[JPARAM_AVG].shift(-1)
+df[PARAM_TARG] = (df[PARAM_NEXT] > df[JPARAM_AVG]).astype(int)
+print(df[PARAM_NEXT].isna().sum())
+quit()
 
 # Lag features
-df[PARAM_L1AVG] = df.groupby(PARAM_CID)[PARAM_AVG].shift(1)
-df[PARAM_L1VOL] = df.groupby(PARAM_CID)[PARAM_VOL].shift(1)
+df[PARAM_L1AVG] = df.groupby(JPARAM_CID)[JPARAM_AVG].shift(1)
+df[PARAM_L1VOL] = df.groupby(JPARAM_CID)[JPARAM_VOL].shift(1)
 
 # Rolling averages
 df[PARAM_R4AVG] = (
-    df.groupby(PARAM_CID)[PARAM_AVG]
+    df.groupby(JPARAM_CID)[JPARAM_AVG]
       .rolling(window=INT_R4)
       .mean()
       .reset_index(0, drop=True)
 )
 df[PARAM_R4VOL] = (
-    df.groupby(PARAM_CID)[PARAM_VOL]
+    df.groupby(JPARAM_CID)[JPARAM_VOL]
       .rolling(window=INT_R4)
       .sum()
       .reset_index(0, drop=True)
@@ -74,11 +77,11 @@ df[PARAM_R4VOL] = (
 model = RandomForestClassifier(n_estimators=100, min_samples_split=100, random_state=1)
 
 # Defines which attributes will be model-facing
-predictors = [PARAM_CID, PARAM_AVG, PARAM_L1AVG, PARAM_R4AVG, PARAM_L1VOL, PARAM_R4VOL]
+predictors = [JPARAM_CID, JPARAM_AVG, PARAM_L1AVG, PARAM_R4AVG, PARAM_L1VOL, PARAM_R4VOL]
 
 # Hyper-simple separation of training and testing data
-train = df[df[PARAM_WEEK] < "2025-04-01"]
-test = df[df[PARAM_WEEK] >= "2025-04-01"]
+train = df[df[JPARAM_WEEK] < "2025-04-01"]
+test = df[df[JPARAM_WEEK] >= "2025-04-01"]
 
 # Calibrate the model on the training data
 model.fit(train[predictors], train[PARAM_TARG])
@@ -89,4 +92,20 @@ forecast = pd.Series(forecast, index=test.index)
 
 # Evaluate forecast precision
 score = precision_score(test[PARAM_TARG], forecast)
-print(score)
+combined = pd.concat([test[PARAM_TARG], forecast], axis=1)
+
+# Format labeling
+combined.columns = ["actual", "predicted"]
+combined = combined.assign(week=test[JPARAM_WEEK])
+combined = combined.sort_values(JPARAM_WEEK)
+
+# Display visual
+ax = combined.plot(
+    x="week",
+    y=["actual", "predicted"],
+    figsize=(12, 5),
+    style={"actual": "b-", "predicted": "r--"},
+    title="True vs. Predicted Direction Over Time"
+)
+ax.set_ylabel("Direction (0 = down/same, 1 = up)")
+plt.show()
