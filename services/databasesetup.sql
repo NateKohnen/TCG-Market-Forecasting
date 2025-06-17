@@ -116,6 +116,10 @@ SELECT c.card_id
                                'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
                                'Illustration Rare', 'Trainer Gallery Rare Holo');
                                
+ SELECT card_id FROM cards WHERE set_id = 'sv2' AND
+                                rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
+                               'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
+                                'Illustration Rare', 'Trainer Gallery Rare Holo');
 # Takes a card, displays the set its from as well as its id, and shows the market price compared to the average psa 10 sale.
 # FUTURE PROOFING: Have the reference to the ebay-listings table take only the most recent N sales.                   
 SELECT 
@@ -148,4 +152,11 @@ GROUP BY
 ORDER BY 
     mean_price DESC;
     
-SELECT * FROM cards;
+SELECT COUNT(*) FROM tcgplayer_weekly_sales;
+
+SELECT * FROM cards where set_id = 'swsh7';
+SELECT * FROM sets where set_name = "Evolving Skies";
+ SELECT card_id FROM cards WHERE set_id = 'sv2' AND
+                                rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
+                               'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
+                                'Illustration Rare', 'Trainer Gallery Rare Holo');
