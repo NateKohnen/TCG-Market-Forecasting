@@ -75,7 +75,6 @@ CREATE TABLE tcgplayer_sales (
     sale_price DECIMAL(10,2),
     FOREIGN KEY (card_id) REFERENCES cards(card_id)
 );
-
 # establishes relationship between a card and its subtypes. A card can have 1 -> N subtypes.
 CREATE TABLE card_subtypes (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -97,9 +96,16 @@ CREATE TABLE tcgplayer_weekly_sales(
 );
 
 DROP TABLE tcgplayer_weekly_sales;
-SELECT * FROM tcgplayer_weekly_sales;
+SELECT * FROM tcgplayer_weekly_sales WHERE card_id = 'sv2-203';
 
+SELECT * FROM cards WHERE name LIKE '%mew ex%';
 
+SELECT s.card_id, s.week, s.num_sold, s.min_price, s.max_price, s.week_avg FROM tcgplayer_weekly_sales s JOIN (SELECT DISTINCT(card_id) FROM tcgplayer_weekly_sales WHERE week_avg >= 20) AS filtered_cards ON s.card_id = filtered_cards.card_id;
+
+SELECT card_id FROM cards WHERE set_id = 'swsh7' AND
+                                rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
+                            'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
+                                'Illustration Rare', 'Trainer Gallery Rare Holo');
 # USEFUL QUERIES
 
 SELECT set_id FROM sets WHERE release_date >= '2023-03-23';
@@ -151,8 +157,15 @@ GROUP BY
     e.card_id, t.market_price
 ORDER BY 
     mean_price DESC;
-    
-SELECT COUNT(*) FROM tcgplayer_weekly_sales;
+
+SET SQL_SAFE_UPDATES = 0;    
+DELETE FROM tcgplayer_weekly_sales WHERE card_id NOT LIKE '%sv%';
+
+SET SQL_SAFE_UPDATES = 1;
+DELETE FROM tcgplayer_weekly_sales WHERE card_id LIKE '%swsh7%';
+
+SELECT * FROM tcgplayer_weekly_sales where card_id = 'swsh-215';
+SELECT * FROM tcgplayer_weekly_sales WHERE card_id = 'sv9-184';
 
 SELECT * FROM cards where set_id = 'swsh7';
 SELECT * FROM sets where set_name = "Evolving Skies";
@@ -160,3 +173,6 @@ SELECT * FROM sets where set_name = "Evolving Skies";
                                 rarity IN ('Rare Secret', 'Hyper Rare', 'Rare Rainbow', 'Rare Ultra', 
                                'Rare Shiny', 'Shiny Ultra Rare', 'Special Illustration Rare', 
                                 'Illustration Rare', 'Trainer Gallery Rare Holo');
+                                
+						
+                                
